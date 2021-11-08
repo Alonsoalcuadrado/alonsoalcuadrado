@@ -1,0 +1,14 @@
+.card-header{
+    border-radius: 15px;
+    text-align: start;
+}
+
+#btn{
+    text-align: end;
+}
+
+#btnSend{
+    background-color: #0099FF;
+    color: azure;
+    justify-content: end;
+}

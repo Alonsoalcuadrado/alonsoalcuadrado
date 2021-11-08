@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
+
+.navbar{
+    background-color: #03419F;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    color: azure;
+}
