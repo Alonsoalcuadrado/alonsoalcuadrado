@@ -29,7 +29,7 @@ export default function Contact() {
               <div className="mt-3">
                 <h5>
                   <i className="fa fa-envelope" id="logo" aria-hidden="true"></i>
-                  rocker2503@gmail.com
+                  ejemplo@gmail.com
                 </h5>
               </div>
             </div>
@@ -37,6 +37,7 @@ export default function Contact() {
           </div>
         </div>
         <h3 className="col-4">Contactanos
+        <form action="mailto:rocker2503@gmail.com" method="POST">
         <div className="card-header text-light" id="card-body">
           <div>
             <h5>
@@ -71,6 +72,7 @@ export default function Contact() {
             />
           </div>
         </div>
+        </form>
         </h3>
       </div>
     </div>

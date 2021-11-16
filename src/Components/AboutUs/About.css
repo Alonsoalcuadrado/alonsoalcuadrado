@@ -1,0 +1,22 @@
+#aboutus{
+    position: absolute;
+    z-index: 1;
+    
+    
+}
+#back{
+    position: absolute;
+    z-index: -1;
+}
+#vec1{
+    display: block;
+    margin: 0 auto;
+    height: 150%;
+    width: 100%;
+    max-width: 4000px;
+    margin-top: 20px;
+}
+#img{
+    display: block;
+    max-width: 100%;
+}

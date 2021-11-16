@@ -3,12 +3,12 @@ import logo from './logo.svg';
 import './App.css';
 import NavBar from './Components/Navbar/NavBar';
 import Contact from './Components/Contact/Contact';
+import AbousUs from './Components/AboutUs/AboutUs';
 
 function App() {
   return (
     <div className="App">
-      <NavBar></NavBar>
-      <Contact></Contact>
+      <AbousUs></AbousUs>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
