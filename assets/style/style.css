@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Estonia&family=Poppins:wght@200&display=swap');
+
+body{
+    background-color: #cfffca;
+}
+
+h1, h2, h3, h4 , h5 , p, i, .navbar{
+    font-family: 'Poppins', sans-serif;
+    font-style: oblique;
+    color: white;
+}
+
+.aboutMe{
+    color:black;
+}
+
+#sections{
+    background-color: #77dd77;
+}
+
+#footer{
+    background-color: #42ab49;
+    text-align: center;
+}
+
+#photo{
+    height: 200px;
+    width: 200px;
+    border-radius: 500px;
+}
+#info{
+    font-size: 25px;
+}
+#css3, #html5, #js{
+    height: 150px;
+    border-radius: 500px;
+}
+
+#card-body{
+    border-radius: 20px;
+    text-align: start;
+    background-color: #42ab49;
+}
+
+#btn{
+    text-align: end;
+}
+
+#btnSend{
+    background-color: #0f5f14;
+    color: azure;
+    justify-content: end;
+}
+#infoIcon{
+    color: #ffffff;
+}
