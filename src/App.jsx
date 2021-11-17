@@ -1,10 +1,10 @@
 import React from 'react'
+import Home from "./pages";
 
 function App() {
   return (
     <div>
-      <h1>Componente principal</h1>
-      <button className='btn btn-primary'>Click me</button>
+      <Home />
     </div>
   );
 }
