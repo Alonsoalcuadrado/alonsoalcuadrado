@@ -14,7 +14,7 @@ h1, h2, h3, h4 , h5 , p, i, .navbar{
     color:black;
 }
 
-#sections{
+.sections{
     background-color: #77dd77;
 }
 
@@ -53,4 +53,8 @@ h1, h2, h3, h4 , h5 , p, i, .navbar{
 }
 #infoIcon{
     color: #ffffff;
+}
+ 
+#contact{
+    color:black;
 }
