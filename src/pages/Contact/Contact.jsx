@@ -1,6 +1,6 @@
 import React from 'react';
 import 'font-awesome/css/font-awesome.min.css'; 
-import './Contact.scss'
+import './Contact.scss';
 
 
 export default function Contact() {
@@ -78,3 +78,4 @@ export default function Contact() {
       </div>
     );
   }
+
