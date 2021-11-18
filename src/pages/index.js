@@ -1,4 +1,3 @@
 import Home from "./Home/Home";
-import Services from "./Services/Services";
 
-export default Services
+export default Home
