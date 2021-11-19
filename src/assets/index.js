@@ -11,5 +11,8 @@ import iconBenefitThree from './images/iconBenefit3.png'
 
 import benefitsSpaceImge from './images/benefitsSpaceImge.png'
 
+import ImgServicesCardsOne from '../assets/images/ImgeServiceExplain1.png'
+import ImgServicesCardsTwo from '../assets/images/ImgeServiceExplain2.png'
+import ImgServicesCardsThree from '../assets/images/ImgeServiceExplain3.png'
 
-export {imgCarouselOne,imgCarouselTwo,imgCarouselThree,imgCarouselFour,imgCarouselFive,iconBenefitOne,iconBenefitTwo,iconBenefitThree,benefitsSpaceImge}
+export {ImgServicesCardsOne, ImgServicesCardsTwo,ImgServicesCardsThree, imgCarouselOne,imgCarouselTwo,imgCarouselThree,imgCarouselFour,imgCarouselFive,iconBenefitOne,iconBenefitTwo,iconBenefitThree,benefitsSpaceImge};

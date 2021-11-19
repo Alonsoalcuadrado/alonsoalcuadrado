@@ -27,7 +27,7 @@ function ServiceExplanationCard({serviceCardTitle,serviceCardPoints,serviceCardI
     )
     }
     else{
-        return (       
+        return (
         
             <div className="card-information">
                <div className="card-information__card--aling-right">
