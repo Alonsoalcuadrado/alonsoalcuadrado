@@ -1,0 +1,26 @@
+.contact_info{
+    text-align: start;
+    background-color: #0099FF;
+    padding: 30px;
+    border: 50px;
+}
+
+.buttons{
+    text-align: end;
+}
+
+.buttons__send{
+    background-color: #03419F;
+    color: azure;
+    justify-content: end;
+}
+.info_business{
+    text-align: start;
+}
+.info_location{
+    border-radius: 15px ;
+}
+
+.info_business--marker_icon, .info_business--phone_icon, .info_business--envelope_icon{
+    color: #03419F;
+}
