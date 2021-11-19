@@ -1,7 +1,6 @@
 import React from 'react'
 import './ServiceExplanationCardsStyle.scss'
 import { Col,Row } from 'react-bootstrap'
-import Items from './Items'
 
 
 function ServiceExplanationCard({serviceCardTitle,serviceCardPoints,serviceCardId,serviceCardImge}) {
@@ -17,7 +16,7 @@ function ServiceExplanationCard({serviceCardTitle,serviceCardPoints,serviceCardI
                             <ul className="card-information__points">
                                 {
                                     serviceCardPoints.map(serviceCardPoint=>(
-                                        <Items key={serviceCardPoint.id} item={serviceCardPoint.p}></Items>
+                                        <li key={serviceCardPoint.id}>{serviceCardPoint.p}</li>
                                     ))
                                 }
                             </ul>
@@ -25,7 +24,6 @@ function ServiceExplanationCard({serviceCardTitle,serviceCardPoints,serviceCardI
                   </Row>
                </div>
             </div>
-        
     )
     }
     else{
@@ -40,7 +38,8 @@ function ServiceExplanationCard({serviceCardTitle,serviceCardPoints,serviceCardI
                             <ul className="card-information__points">
                                 {
                                     serviceCardPoints.map(serviceCardPoint=>(
-                                        <Items key={serviceCardPoint.id} item={serviceCardPoint.p}></Items>
+                                        <li key={serviceCardPoint.id}> {serviceCardPoint.p}</li>
+        
                                     ))
                                 }
                             </ul>
