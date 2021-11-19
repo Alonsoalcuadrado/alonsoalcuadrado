@@ -1,14 +1,15 @@
-#aboutus{
+div{
+    text-align: center;
+}
+
+.about_us__image--icon{
     position: absolute;
     z-index: 1;
-    
-    
 }
-#back{
+.about_us__image{
     position: absolute;
     z-index: -1;
-}
-#vec1{
+    text-align: center;
     display: block;
     margin: 0 auto;
     height: 150%;
@@ -16,7 +17,7 @@
     max-width: 4000px;
     margin-top: 20px;
 }
-#img{
+.about_us__info--image{
     display: block;
     max-width: 100%;
 }

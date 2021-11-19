@@ -4,27 +4,25 @@ import './About.scss';
 import about1 from './../../assets/Allura.png';
 import about2 from './../../assets/StuckAtHome.png';
 import vec1 from './../../assets/Vector.png';
-import NavBar from '../../components/Navbar';
 
 
 export default function AboutsUs(){
     return(
         <div>
-            <NavBar></NavBar>
-            <div className="nfo1">
-                <div id="back" className="mt-4">
-                    <img src={vec1} alt="" id="vec1"/>
+            <div className="aboutUs">
+                <div className="about_us__image mt-4">
+                    <img src={vec1} alt="" />
                 </div>
-                <div className="aboutus">
-                <div className="row container-fluid">
-                    <div className="col">
-                        <img src={about2} id="img"/>
+                <div className="about_us__info">
+                    <div className="row container-fluid">
+                        <div className="col about_us__info--image">
+                            <img src={about2}/>
+                        </div>
+                        <div className="col mt-4">
+                            <h2>Acerca de nosotros</h2>
+                            <p> Somos una empresa enfocada en brindar un <br /> servicio Integral de diseño y desarrollo WEB con la <br /> finalidad de potencializar los negocios de nuestros <br /> clientes, para que así obtengan los máximos <br /> beneficios de tener presencia dentro de internet.</p>
+                        </div>
                     </div>
-                    <div className="col mt-4">
-                        <h2>Acerca de nosotros</h2>
-                        <p> Somos una empresa enfocada en brindar un <br /> servicio Integral de diseño y desarrollo WEB con la <br /> finalidad de potencializar los negocios de nuestros <br /> clientes, para que así obtengan los máximos <br /> beneficios de tener presencia dentro de internet.</p>
-                    </div>
-                </div>
                 </div>
             </div>
             <div className="row container-fluid">
