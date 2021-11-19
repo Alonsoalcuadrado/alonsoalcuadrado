@@ -4,15 +4,15 @@ import ServiceCard from './serviceCard'
 import './serviceCardsStyle.scss';
 
 
-function serviceCards({serviCards}) {
-    const serviCard = [...serviCards]
+function serviceCards({InformationServiCards}) {
+   
     return (
         <div className="service-cards ">
              <h2 className="service-cards__title">SERVICIOS</h2>
             <Row>
                 {
-                     serviCard.map(card=>(
-                        <Col key ={card.id}> <ServiceCard title={card.title} itemsType={card.items}/></Col>
+                     InformationServiCards.map(InformationServiCard=>(
+                        <Col key ={InformationServiCard.id}> <ServiceCard title={InformationServiCard.title} itemsType={InformationServiCard.items}/></Col>
                      ))
                 }
             </Row>
