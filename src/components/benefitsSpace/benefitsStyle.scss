@@ -1,23 +1,19 @@
-
-
-img {
-    width: 100%;
-    height: auto;
+.benefits-space{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+    .benefits-space__title{
+        font-size: 48px;
+        line-height: 72px;
+        text-align: center;
+        margin-bottom: 0px;
     }
-  
-.cardBig{
-    background: rgba(208, 187, 187, 0.25);
-    border-radius: 15px;
-    margin-top: 33px;
-    padding-top: 10px;
-    margin-right: 15px;
-    }
-
-    .p-title{
-        font-weight: bold;
-        margin-bottom: 0PX;
-    }
-    .cardSmall{
+    .benefits-space__imge{
+        width: 100%;
+        height: auto;
+        }
+}
+    .benefits-cards__card--small{
         height: 96px;
         width: 100px; 
         border-top-left-radius: 20px;
@@ -26,15 +22,21 @@ img {
         margin-right: 15px;
         margin-top: 33px;
         padding: 10px;
-    
     }
+    .benefits-cards__card--large{
+        background: rgba(208, 187, 187, 0.25);
+        border-radius: 15px;
+        margin-top: 33px;
+        padding-top: 10px;
+        margin-right: 15px;
+    }
+    .benefits-cards__imge{
+        width: 100%;
+        height: auto;
+     }
+     .benefits-cards__title{
+        font-weight: bold;
+        margin-bottom: 0PX;
+     }
 
-    .titleS{
-        font-size: 48px;
-        line-height: 72px;
-        text-align: center;
-        margin-top: 50px;
-        margin-bottom: 0px;
-        }
-        
        

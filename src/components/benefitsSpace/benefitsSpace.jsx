@@ -1,36 +1,22 @@
 import React from 'react'
+import { Col, Row } from 'react-bootstrap'
 import BenefitsCards from './benefitsCards'
 import './benefitsStyle.scss'
-
-
-
 function benefitsSpace({imgBS, cardsInfo}) {
-
-  const cardsInfo2 =[...cardsInfo]
     return (
-      <>
-       
-        <div className="container">
-        
-        <h2 className="titleS">BENEFICIOS</h2>
-          <div className="row ">
-            <div class="col-6   "><img src={imgBS} alt="Not found"></img></div>
-            <div class="col-5">
-                 {
-                    cardsInfo2.map(cardInfo2 =>(
-                      <div className='row'><BenefitsCards infoCard={cardInfo2}></BenefitsCards></div>
-                   ))
-                 }
-              </div>
-              
-            
-          </div>
-        </div>
-      </>
+      <div className="benefits-space">
+          <h2 className="benefits-space__title">BENEFICIOS</h2>
+            <Row>
+              <Col><img className="benefits-space__imge" src={imgBS} alt="Not found"></img></Col>
+              <Col>
+                  {
+                      cardsInfo.map(cardInfo =>(
+                        <Row><BenefitsCards infoCard={cardInfo}></BenefitsCards></Row>
+                    ))
+                  }
+                </Col>
+            </Row>
+      </div>
     )
 }
-
-
-
-
 export default benefitsSpace
