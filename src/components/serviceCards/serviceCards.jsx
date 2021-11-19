@@ -1,28 +1,24 @@
 import React from 'react'
-import {  Col } from 'react-bootstrap'
+import {  Col,Row } from 'react-bootstrap'
 import ServiceCard from './serviceCard'
 import './serviceCardsStyle.scss';
-
-
 
 
 function serviceCards({serviCards}) {
     const serviCard = [...serviCards]
     return (
-        <div className="container-lg ">
-             <h2 className="titleS">SERVICIOS</h2>
-            <div className="row">
+        <div className="service-cards ">
+             <h2 className="service-cards__title">SERVICIOS</h2>
+            <Row>
                 {
                      serviCard.map(card=>(
                         <Col key ={card.id}> <ServiceCard title={card.title} itemsType={card.items}/></Col>
                      ))
                 }
-            </div>
-
+            </Row>
         </div>
        
         
     )
 }
-
 export default serviceCards
