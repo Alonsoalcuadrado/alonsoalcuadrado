@@ -7,7 +7,7 @@ export default function Contact() {
     return (
       <div className="container">
           <div className="d-flex justify-content-end mt-2">
-              <button className="btn btn-primary" href="https://wa.me/528714533447">Whatsapp <i class="fa fa-whatsapp" aria-hidden="true" ></i></button>
+              <a className="btn btn-primary" href="https://api.whatsapp.com/send/?phone=528715345184&text=Hola, estoy interesado en un servicio, me gustaría más información&app_absent=0" target="_blank">Whatsapp <i class="fa fa-whatsapp" aria-hidden="true" ></i></a>
           </div>
         <div className="d-flex justify-content-around card-body">
           <div className="info">

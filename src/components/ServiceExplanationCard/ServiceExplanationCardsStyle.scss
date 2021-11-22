@@ -1,3 +1,6 @@
+@import './../../assets/sass/variables.scss';
+@import './../../assets/sass/mixin.scss';
+
 .services{
     margin-left: 100px;
     margin-right: 100px;
@@ -11,29 +14,12 @@
     }
 }
 .card-information{
-    color: aliceblue;
-    margin-left: 85px;
-    margin-right: 85px;
-    margin-bottom: 70px;
+    @include card__information;
     .card-information__card--aling-right{
-        width: 600px;
-        height:280px; 
-        border-top-left-radius: 20px;
-        border-bottom-right-radius: 20px;
-        background-color: #0099FF;
-        margin-right: 0px;
-        margin-top: 33px;
-        padding: 10px;
+        @include card_information_card__align-right;
     }
     .card-information__card--aling-left{
-        width: 600px;
-        height: 280px; 
-        border-top-left-radius: 20px;
-        border-bottom-right-radius: 20px;
-        background-color: #0099FF;
-        margin-left: 549px;
-        margin-top: 33px;
-        padding: 10px;
+        @include card_information_card__align-left
     }
     .card-information__img{
         width: 100%;

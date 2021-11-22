@@ -1,6 +1,7 @@
+@import './../../assets/sass/variables.scss';
 .navbar{
-    background-color: #03419F;
+    background-color: $blueColor;
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
-    color: azure;
+    color: $textInfo;
 }

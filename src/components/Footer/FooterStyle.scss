@@ -1,9 +1,9 @@
-
+@import './../../index.scss';
 .resaltar{
-    background-color: violet;
+    background-color: $highlightViolet;
 }
 .resaltar2{
-    background-color: aqua;
+    background-color: $highlightAqua;
 }
 .f-med{
     margin-top: 100px;
@@ -24,7 +24,7 @@
     margin-right: 60px;
     margin-top: 250px;
     width: 1780px;
-    color: aliceblue;
+    color: $footer;
     font-size: 16px;
    
 }
