@@ -3,29 +3,27 @@ import logo from './../../assets/logo.png'
 import './NavBar.scss'
 import {  Nav, Navbar } from "react-bootstrap";
 import {BrowserRouter , Routes,Route,Link } from "react-router-dom";
-import  {Home,Service,Contact,AboutUs} from '../../pages/index'
+import  {Home,Service,Contact,AboutUs} from '../../pages'
 
 
-function NavBarTwo() {
+function NavBar() {
     return (
         
        <>
        <BrowserRouter>
             <Navbar className="navbar" variant="dark">
-                        
-                                <Navbar.Brand>
-                                  <Link className="navbar__logo" to="/">
-                                      <img src={logo} alt="Not Found" className="Nav-logo" width="45" height="35"/>
-                                      AL Cuadrado
-                                  </Link>
-                                </Navbar.Brand>
-                                <Nav className="navbar__links">
-                                    <Link className="navbar__link" to="/">Home</Link>
-                                    <Link className="navbar__link" to="/services"> Servicios</Link>
-                                    <Link className="navbar__link"to="/contact">Contacto</Link>
-                                    <Link  className="navbar__link" to="/about-us">Nosotros</Link>
-                                </Nav>
-                      
+              <Navbar.Brand>
+                <Link className="navbar__logo" to="/">
+                  <img src={logo} alt="Not Found" className="Nav-logo" width="45" height="35"/>
+                  AL Cuadrado
+                </Link>
+              </Navbar.Brand>
+              <Nav className="navbar__links">
+                <Link className="navbar__link" to="/">Home</Link>
+                <Link className="navbar__link" to="/services"> Servicios</Link>
+                <Link className="navbar__link"to="/contact">Contacto</Link>
+                <Link  className="navbar__link" to="/about-us">Nosotros</Link>
+              </Nav>                      
             </Navbar> 
             <Routes>
                 <Route path="/" element={<Home />}></Route>
@@ -39,8 +37,4 @@ function NavBarTwo() {
        
     )
 }
-
-
-
-
-export default NavBarTwo
+export default NavBar

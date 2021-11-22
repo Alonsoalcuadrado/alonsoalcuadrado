@@ -1,7 +1,5 @@
 import React from 'react'
-import Carousel from '../../components/Carousel/carousel'
-import ServiceCards from '../../components/serviceCards/serviceCards'
-import BenefitsSpace from '../../components/benefitsSpace/benefitsSpace'
+import {Carousel,ServiceCards,BenefitsSpace} from '../../components'
 import {imgCarouselOne,imgCarouselTwo,imgCarouselThree,imgCarouselFour,imgCarouselFive,iconBenefitOne,iconBenefitTwo,iconBenefitThree,benefitsSpaceImge} from '../../assets/index'
 
 const ArrayImgesCarousel =[
