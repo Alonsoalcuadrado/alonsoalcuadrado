@@ -13,15 +13,15 @@
     }
 }
 .service-card{
-    @include filterServiceCard;
+    @include filterCard;
     .service-card__card-header{
-        @include service-card__card-header_mixin
+        @include card-header_mixin
     }
     .service-card__card-text{
         height: 180px;
     }
     .service-card__button{
-        @include service-card__button-mixin;
+        @include card__button-mixin;
     }
 }
 

@@ -1,23 +1,22 @@
-div{
+.aboutUs{
     text-align: center;
 }
 
-.about_us__image--icon{
-    position: absolute;
-    z-index: 1;
-}
 .about_us__image{
-    position: absolute;
     z-index: -1;
-    text-align: center;
-    display: block;
-    margin: 0 auto;
-    height: 150%;
+    position: relative;
+    height: auto;
     width: 100%;
-    max-width: 4000px;
-    margin-top: 20px;
+    margin-top: 1.5%
 }
-.about_us__info--image{
-    display: block;
+.about_us__info{
+    position:absolute;
+    left: 50px;
+    top: -9px;
+    z-index: 1; 
     max-width: 100%;
+}
+.about_us__info--data{
+    margin-left: 500px;
+    text-align: justify;
 }

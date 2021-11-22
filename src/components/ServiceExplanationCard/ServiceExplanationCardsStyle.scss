@@ -14,12 +14,15 @@
     }
 }
 .card-information{
-    @include card__information;
+    color: aliceblue;
+    margin-left: 85px;
+    margin-right: 85px;
+    margin-bottom: 70px;
     .card-information__card--aling-right{
-        @include card_information_card__align-right;
+        @include card__align-right;
     }
     .card-information__card--aling-left{
-        @include card_information_card__align-left
+        @include card__align-left
     }
     .card-information__img{
         width: 100%;

@@ -1,31 +1,31 @@
 @import './variables.scss';
 
 //*Services Cards Style
-@mixin filterServiceCard {
+@mixin filterCard {
     height: 360px;
     border-radius: 10px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));;
     margin-top: 20px;
   }
 
-  @mixin service-card__card-header_mixin {
-    background: $serviceCard_header__bg;
+  @mixin card-header_mixin {
+    background: $Card_header__bg;
     height: 90px;
     text-align:center;
     padding-top: 10px;
   }
-  @mixin service-card__button-mixin {
+  @mixin card__button-mixin {
     margin-left:80px;
     margin-right:80px;
     text-align: center;
     padding: 5px 30px;
-    background: $components;
+    background: $blueComponents;
     border-radius: 10px;
-    color: $serviceCard_text;
+    color: $Card_text;
   }
 
 //*Service Explanation Cards Style
-  @mixin card_information_card__align-right {
+  @mixin card__align-right {
     width: 600px;
     height:280px; 
     border-top-left-radius: 20px;
@@ -36,7 +36,7 @@
     padding: 10px;
   }
 
-  @mixin card_information_card__align-left {
+  @mixin card__align-left {
     width: 600px;
     height: 280px; 
     border-top-left-radius: 20px;
@@ -47,29 +47,3 @@
     padding: 10px;
   }
 
-  @mixin card__information {
-    color: aliceblue;
-    margin-left: 85px;
-    margin-right: 85px;
-    margin-bottom: 70px;
-  }
-
-//*Benefits Card
-@mixin benefits-card__card--small-mixin {
-    height: 96px;
-    width: 100px; 
-    border-top-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-    background-color: $components;
-    margin-right: 15px;
-    margin-top: 33px;
-    padding: 10px;
-}
-
-@mixin benefits-card__card--large-mixin {
-    background: $benefitCard--large-bg;
-    border-radius: 15px;
-    margin-top: 33px;
-    padding-top: 10px;
-    margin-right: 15px;
-}
