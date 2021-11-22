@@ -1,6 +1,21 @@
 .navbar{
-    background-color: #03419F;
+    background-color: #0567fc;
     font-family: 'Poppins', sans-serif;
-    font-weight: 300;
-    color: azure;
+
+    .navbar__logo{
+        color:azure;
+        text-decoration:none;
+        margin-left: 20px;
+        
+    }
+    .navbar__links{
+        margin-left:62%;
+        
+    }
+    .navbar__link{
+        color:azure;
+        margin-left:10px;
+        text-decoration:none;
+      
+    }
 }

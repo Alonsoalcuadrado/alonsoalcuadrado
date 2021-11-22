@@ -34,7 +34,6 @@ const Home = () => {
     <div className='home-container'>
      <Carousel imgesCarousel={ArrayImgesCarousel}></Carousel>
      <ServiceCards InformationServiCards={ArrayServicesCardsInformation}/>
-     <hr size="5"></hr>
      <BenefitsSpace benefitsSpaceImge={benefitsSpaceImge} InformationBenefitsCards={ArrayBenefitsCardsInformation}></BenefitsSpace>
     </div>
   )
