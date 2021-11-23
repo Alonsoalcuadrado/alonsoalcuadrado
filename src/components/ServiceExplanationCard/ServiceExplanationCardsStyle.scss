@@ -1,9 +1,10 @@
 .services{
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-top: 20px;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 2%;
     .services__title{
         text-align: center;
+        margin-bottom: 20px;
     }
     .services__row{
         margin-left: 0px;
@@ -12,36 +13,25 @@
 }
 .card-information{
     color: aliceblue;
-    margin-left: 85px;
-    margin-right: 85px;
-    margin-bottom: 70px;
-    .card-information__card--aling-right{
-        width: 600px;
-        height:280px; 
+    margin-bottom:5%;
+    .card-information__card{
         border-top-left-radius: 20px;
         border-bottom-right-radius: 20px;
         background-color: #0099FF;
-        margin-right: 0px;
-        margin-top: 33px;
         padding: 10px;
     }
-    .card-information__card--aling-left{
-        width: 600px;
-        height: 280px; 
-        border-top-left-radius: 20px;
-        border-bottom-right-radius: 20px;
-        background-color: #0099FF;
-        margin-left: 549px;
-        margin-top: 33px;
-        padding: 10px;
-    }
+    
     .card-information__img{
-        width: 100%;
+        width: 80%;
         height: auto;
     }
     .card-information__title{
-        font-size:19px;
+        
         text-align: center;
+        font-size:110%;
+    }
+    .card-information__points{
+        text-align:left;
     }
   
 }
