@@ -1,7 +1,7 @@
 import React from 'react'
 import './ServiceExplanationCardsStyle.scss'
 import ServiceExplanationCard from './ServiceExplanationCard'
-import { Row } from 'react-bootstrap'
+
 
 
 
@@ -9,8 +9,6 @@ function ServiceExplanationCards({InformationServiceCards}) {
     return (
             <div className="services">
                  <h1 className="services__title"> SERVICIOS</h1>
-                
-               
                {
                     InformationServiceCards.map(InformationServiceCard=>(
                          
