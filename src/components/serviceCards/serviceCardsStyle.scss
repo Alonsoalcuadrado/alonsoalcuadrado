@@ -1,6 +1,11 @@
+body{
+    background-color: #E5F2F4;
+}
+
 .service-cards{
-    margin-left: 150px;
-    margin-right: 150px;
+    margin-left: 15%;
+    margin-right: 15%;
+    
     .service-cards__title{
         font-size: 48px;
         line-height: 72px;
@@ -10,10 +15,10 @@
     }
 }
 .service-card{
-    height: 360px; 
     border-radius: 10px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     margin-top: 20px;
+    background-color: rgb(246, 248, 248);
     .service-card__card-header{
         background: rgba(228, 228, 228, 0.5);
         height: 90px;
@@ -26,8 +31,7 @@
     
     }
     .service-card__button{
-        margin-left:80px;
-        margin-right:80px;
+
         text-align: center;
         padding: 5px 30px;
         background: #0099FF;
