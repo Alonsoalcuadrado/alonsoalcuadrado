@@ -7,7 +7,7 @@ function ServiceExplanationCard({serviceCardTitle,serviceCardPoints,serviceCardI
     if((serviceCardId%2)===0){
         return ( 
             <Row className="card-information">
-                <Col xs={12}md={{ span: 7, offset: 5 }} className="card-information__card">
+                <Col  sm={12} lg={{ span: 7, offset: 5 }} className="card-information__card">
                     <Row>
                     <Col md ><img className="card-information__img" src={serviceCardImge} alt="Not found"></img></Col>
                         <Col xs> 
@@ -32,7 +32,7 @@ function ServiceExplanationCard({serviceCardTitle,serviceCardPoints,serviceCardI
     else{
         return (
             <Row className="card-information">
-                <Col xs={12} md={7} className="card-information__card">
+                <Col xs={12} lg={7} className="card-information__card">
                     <Row>
                         <Col md ><img className="card-information__img" src={serviceCardImge} alt="Not found"></img></Col>
                         <Col xs> 
