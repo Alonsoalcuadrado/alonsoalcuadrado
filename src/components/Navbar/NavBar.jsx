@@ -11,19 +11,22 @@ function NavBar() {
         
        <>
        <BrowserRouter>
-            <Navbar className="navbar" variant="dark">
+            <Navbar className="navbar" variant="dark" id="nav" expand="lg">
               <Navbar.Brand>
                 <Link className="navbar__logo" to="/">
-                  <img src={logo} alt="Not Found" className="Nav-logo" width="45" height="35"/>
+                  <img src={logo} alt="Not Found" width="45" height="35"/>
                   AL Cuadrado
                 </Link>
               </Navbar.Brand>
-              <Nav className="navbar__links">
-                <Link className="navbar__link" to="/">Home</Link>
-                <Link className="navbar__link" to="/services"> Servicios</Link>
-                <Link className="navbar__link"to="/contact">Contacto</Link>
-                <Link  className="navbar__link" to="/about-us">Nosotros</Link>
-              </Nav>                      
+              <Navbar.Toggle aria-controls="basic-navbar-nav"/>
+              <Navbar.Collapse id="basic-navbar-nav"  >
+                <Nav className="ms-auto">
+                  <Link className="navbar__link" to="/">Home</Link>
+                  <Link className="navbar__link" to="/services"> Servicios</Link>
+                  <Link className="navbar__link"to="/contact">Contacto</Link>
+                  <Link  className="navbar__link" to="/about-us">Nosotros</Link>
+                </Nav>  
+              </Navbar.Collapse>              
             </Navbar> 
             <Routes>
                 <Route path="/" element={<Home />}></Route>
