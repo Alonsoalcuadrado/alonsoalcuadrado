@@ -12,7 +12,7 @@ function NavBar() {
           Al Cuadrado</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav"/>
         <Navbar.Collapse id="basic-navbar-nav" className="d-flex justify-content-end">
-          <Nav>
+          <Nav className="me-auto">
             <Nav.Link href="#home">Home</Nav.Link>
             <Nav.Link href="#servicios">Servicios</Nav.Link>
             <Nav.Link href="#aboutus">Nosotros</Nav.Link>

@@ -1,10 +1,5 @@
+@import './../../assets/sass/variables.scss';
 
-.resaltar{
-    background-color: violet;
-}
-.resaltar2{
-    background-color: aqua;
-}
 .f-med{
     margin-top: 100px;
     text-align: center;
@@ -24,7 +19,7 @@
     margin-right: 60px;
     margin-top: 250px;
     width: 1780px;
-    color: aliceblue;
+    color: $footer;
     font-size: 16px;
    
 }

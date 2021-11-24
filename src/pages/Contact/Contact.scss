@@ -1,6 +1,8 @@
+@import './../../assets/sass/variables.scss';
+
 .contact_info{
     text-align: start;
-    background-color: #0099FF;
+    background-color: $blueComponentsColor;
     padding: 30px;
     border: 50px;
 }
@@ -10,8 +12,8 @@
 }
 
 .buttons__send{
-    background-color: #03419F;
-    color: azure;
+    background-color: $mainBlueColor;
+    color: $textInfo;
     justify-content: end;
 }
 .info_business{
@@ -22,5 +24,5 @@
 }
 
 .info_business--marker_icon, .info_business--phone_icon, .info_business--envelope_icon{
-    color: #03419F;
+    color: $mainBlueColor;
 }
