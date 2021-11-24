@@ -8,7 +8,7 @@ import ServiceExplanationCard from './ServiceExplanationCard'
 function ServiceExplanationCards({InformationServiceCards}) {
     return (
             <div className="services" id="services" name="services">
-                 <h1 className="services__title"> SERVICIOS</h1>
+                 <h2 className="services__title"> SERVICIOS</h2>
                {
                     InformationServiceCards.map(InformationServiceCard=>(
                          

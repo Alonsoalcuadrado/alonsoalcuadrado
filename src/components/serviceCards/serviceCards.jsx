@@ -9,7 +9,6 @@ function serviceCards({InformationServiCards}) {
     return (
         <div className="service-cards ">
              <h2 className="service-cards__title">SERVICIOS</h2>
-            
             <Row xs={1}lg={3}>
                 {
                      InformationServiCards.map(InformationServiCard=>(
