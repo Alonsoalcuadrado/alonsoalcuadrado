@@ -12,12 +12,12 @@
         width: 100%;
     }
     @media (max-width: 550px) {
-        width: 100vw;
+        width: 100%;
     }
     @media (max-width: 370px) {
         width: 100%;
     }
-    width: 100vw;
+    width: 100%;
     top: 25px;
 }
 
@@ -28,6 +28,23 @@
 .about_us__info--image{
     bottom: -5px;
     text-align: center;
+} 
+
+.about_us__info--data-AU{
+    @media (max-width: 360px) {
+        margin-top: 15px;
+    }
+     @media (max-width: 375px) {
+        margin-top: 15px;
+    }
+    @media (max-width: 411px) {
+        margin-top: 15px;
+    }
+}
+
+.about_us--image{
+    bottom: -5px;
+    text-align: center;
 }
 
 @media (max-width:831px) {
@@ -35,16 +52,29 @@
         width: 50vw;
         justify-content: center;
     }
+    .about_us--image{
+        bottom: -5px;
+        text-align: center;
+        width: 75vw;
+    }
 }
 
 @media (max-width:550px) {
     .about_us__info--image{
         width: 70vw;
     }
+    .about_us--image{
+        width: 80vw;
+    }
 }
 
 @media (max-width:375px) {
     .about_us__info--image{
+        width: 75vw;
+    }
+    .about_us--image{
+        bottom: -5px;
+        text-align: center;
         width: 75vw;
     }
 }
