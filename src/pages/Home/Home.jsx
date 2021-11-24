@@ -30,7 +30,7 @@ const ArrayBenefitsCardsInformation=[
 const Home = () => {
   return (
     <div className='home-container'>
-     <Carousel imgesCarousel={ArrayImgesCarousel}></Carousel>
+     <Carousel imgesCarousel={ ArrayImgesCarousel} ></Carousel>
      <ServiceCards InformationServiCards={ArrayServicesCardsInformation}/>
      <BenefitsSpace benefitsSpaceImge={benefitsSpaceImge} InformationBenefitsCards={ArrayBenefitsCardsInformation}></BenefitsSpace>
     </div>

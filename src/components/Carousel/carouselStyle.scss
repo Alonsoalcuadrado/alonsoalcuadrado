@@ -1,7 +1,15 @@
 .carousel{
-    .carousel__image{
-        display: block;
-        width: 100%;
+    background-color: #E5F2F4;
+    
+    .carousel__text{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        padding-right: 12%;
+        padding-left: 12%;
+       text-align: justify;
+       font-weight:lighter;
+        
     }
    
 }
