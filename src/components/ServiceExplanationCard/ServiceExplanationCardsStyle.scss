@@ -19,10 +19,24 @@
     margin-right: 85px;
     margin-bottom: 70px;
     .card-information__card--aling-right{
-        @include card__align-right;
+        width: 600px;
+        height:280px; 
+        border-top-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        background-color: #0099FF;
+        margin-right: 0px;
+        margin-top: 33px;
+        padding: 10px;
     }
     .card-information__card--aling-left{
-        @include card__align-left
+        width: 600px;
+        height: 280px; 
+        border-top-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        background-color: #0099FF;
+        margin-left: 549px;
+        margin-top: 33px;
+        padding: 10px;
     }
     .card-information__img{
         width: 100%;

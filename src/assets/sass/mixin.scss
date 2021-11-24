@@ -8,42 +8,23 @@
     margin-top: 20px;
   }
 
+  //*General style for cards headers
   @mixin card-header_mixin {
-    background: $CardheaderBgGray;
+    background: $cardheaderBgGrayColor;
     height: 90px;
     text-align:center;
     padding-top: 10px;
   }
-  @mixin card__button-mixin {
+
+  //*General style for cards buttons
+  @mixin mainbuttonCards {
     margin-left:80px;
     margin-right:80px;
     text-align: center;
     padding: 5px 30px;
-    background: $blueComponents;
+    background: $componentsBlueColor;
     border-radius: 10px;
-    color: $Card_text;
+    color: $cardTextColor;
   }
 
-//*Service Explanation Cards Style
-  @mixin card__align-right {
-    width: 600px;
-    height:280px; 
-    border-top-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-    background-color: #0099FF;
-    margin-right: 0px;
-    margin-top: 33px;
-    padding: 10px;
-  }
-
-  @mixin card__align-left {
-    width: 600px;
-    height: 280px; 
-    border-top-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-    background-color: #0099FF;
-    margin-left: 549px;
-    margin-top: 33px;
-    padding: 10px;
-  }
 

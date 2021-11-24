@@ -21,7 +21,7 @@
         height: 180px;
     }
     .service-card__button{
-        @include card__button-mixin;
+        @include mainbuttonCards;
     }
 }
 
