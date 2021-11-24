@@ -10,7 +10,7 @@ function serviceCards({InformationServiCards}) {
         <div className="service-cards ">
              <h2 className="service-cards__title">SERVICIOS</h2>
             
-            <Row xs={1}   lg={3}>
+            <Row xs={1}lg={3}>
                 {
                      InformationServiCards.map(InformationServiCard=>(
                         <Col  key ={InformationServiCard.id}> <ServiceCard title={InformationServiCard.title} itemsType={InformationServiCard.items}/></Col>

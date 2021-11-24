@@ -15,7 +15,7 @@ function FooterText() {
                         <div className="col-2"><i class="fa fa-twitter"></i></div>
                     </Row>  
                 </Col>
-                <Col className="footer__text--under">Todos los derech os reservados a A2© TRC</Col>
+                <Col className="footer__text--under">Todos los derechos os reservados a A2© TRC</Col>
                 <Col>
                     <p className="footer_text">Calle Aldama </p><p className="footer_text">#1051 int C </p><p className="footer_text">CP 27000</p><p className="footer_text">Torreón Coahuila</p>
                 </Col>

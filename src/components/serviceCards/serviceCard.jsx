@@ -2,6 +2,7 @@
 import React from "react";
 import { Card,Button } from "react-bootstrap";
 import './serviceCardsStyle.scss';
+import {BrowserRouter,Link } from "react-router-dom";
 
 function serviceCards({title,itemsType}){
    return(
@@ -17,9 +18,14 @@ function serviceCards({title,itemsType}){
                         }
                   </ul>
                 </Card.Text>
-                <Button className="service-card__button">Más Información</Button>
+                <Button className="service-card__button" >
+                  <Link className="service-card__link" to="/services#services">Más Información</Link>
+                </Button>
           </Card.Body>
       </Card>
     );
 }
+
+
+
 export default serviceCards;
