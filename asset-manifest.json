@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/alonsoalcuadrado/static/css/main.f9db3608.chunk.css",
+    "main.js": "/alonsoalcuadrado/static/js/main.2b79b3ea.chunk.js",
+    "main.js.map": "/alonsoalcuadrado/static/js/main.2b79b3ea.chunk.js.map",
+    "runtime-main.js": "/alonsoalcuadrado/static/js/runtime-main.e534448f.js",
+    "runtime-main.js.map": "/alonsoalcuadrado/static/js/runtime-main.e534448f.js.map",
+    "static/css/2.e2177bda.chunk.css": "/alonsoalcuadrado/static/css/2.e2177bda.chunk.css",
+    "static/js/2.53d2629d.chunk.js": "/alonsoalcuadrado/static/js/2.53d2629d.chunk.js",
+    "static/js/2.53d2629d.chunk.js.map": "/alonsoalcuadrado/static/js/2.53d2629d.chunk.js.map",
+    "static/js/3.b4bd9638.chunk.js": "/alonsoalcuadrado/static/js/3.b4bd9638.chunk.js",
+    "static/js/3.b4bd9638.chunk.js.map": "/alonsoalcuadrado/static/js/3.b4bd9638.chunk.js.map",
+    "index.html": "/alonsoalcuadrado/index.html",
+    "static/css/2.e2177bda.chunk.css.map": "/alonsoalcuadrado/static/css/2.e2177bda.chunk.css.map",
+    "static/css/main.f9db3608.chunk.css.map": "/alonsoalcuadrado/static/css/main.f9db3608.chunk.css.map",
+    "static/js/2.53d2629d.chunk.js.LICENSE.txt": "/alonsoalcuadrado/static/js/2.53d2629d.chunk.js.LICENSE.txt",
+    "static/media/Allura.be502335.png": "/alonsoalcuadrado/static/media/Allura.be502335.png",
+    "static/media/ImgeServiceExplain1.79305f2c.png": "/alonsoalcuadrado/static/media/ImgeServiceExplain1.79305f2c.png",
+    "static/media/ImgeServiceExplain2.23c54b06.png": "/alonsoalcuadrado/static/media/ImgeServiceExplain2.23c54b06.png",
+    "static/media/ImgeServiceExplain3.b57c566f.png": "/alonsoalcuadrado/static/media/ImgeServiceExplain3.b57c566f.png",
+    "static/media/StuckAtHome.d704a0da.png": "/alonsoalcuadrado/static/media/StuckAtHome.d704a0da.png",
+    "static/media/About.scss": "/alonsoalcuadrado/static/media/Vector.fbb6958f.png",
+    "static/media/benefitsSpaceImge.50619a8e.png": "/alonsoalcuadrado/static/media/benefitsSpaceImge.50619a8e.png",
+    "static/media/carousel1.06009376.png": "/alonsoalcuadrado/static/media/carousel1.06009376.png",
+    "static/media/carousel2.f7c0f728.png": "/alonsoalcuadrado/static/media/carousel2.f7c0f728.png",
+    "static/media/carousel3.43bf9f6d.png": "/alonsoalcuadrado/static/media/carousel3.43bf9f6d.png",
+    "static/media/carousel4.f65f3fcf.png": "/alonsoalcuadrado/static/media/carousel4.f65f3fcf.png",
+    "static/media/carousel5.aa2d92cb.png": "/alonsoalcuadrado/static/media/carousel5.aa2d92cb.png",
+    "static/media/font-awesome.min.css": "/alonsoalcuadrado/static/media/fontawesome-webfont.f691f37e.woff",
+    "static/media/iconBenefit2.295acf7f.png": "/alonsoalcuadrado/static/media/iconBenefit2.295acf7f.png",
+    "static/media/iconBenefit3.8f4e21ef.png": "/alonsoalcuadrado/static/media/iconBenefit3.8f4e21ef.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e534448f.js",
+    "static/css/2.e2177bda.chunk.css",
+    "static/js/2.53d2629d.chunk.js",
+    "static/css/main.f9db3608.chunk.css",
+    "static/js/main.2b79b3ea.chunk.js"
+  ]
+}
