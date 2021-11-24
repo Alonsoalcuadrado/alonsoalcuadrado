@@ -1,60 +1,48 @@
+@import './../../assets/sass/variables.scss';
 
-.footer{
+.footer {
+  position: absolute;
+  margin-top: 15%;
+  color: antiquewhite;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  .footer_text {
+    margin: 0px;
+  }
+  .footer__text--under {
+    margin-top: 5%;
+  }
+  .footer__containerIcons {
+    margin-left: 25%;
+  }
+}
+
+@media (max-width: 770px) {
+  .footer {
     position: absolute;
-    margin-top: 15%;
-    color:antiquewhite;
-    font-size: 15px;
-    display: flex;
-    justify-content: center;
-    .footer_text{
-        margin: 0px;
-    }
-    .footer__text--under{
-        margin-top: 5%;
-    }
-    .footer__containerIcons{
-        margin-left: 25%;
-    }
-    
-    
+    margin-top: 12%;
+    font-size: 10px;
+    margin-left: 5%;
+  }
 }
 
-@media (max-width:770px) {
-    .footer{
-        position: absolute;
-        margin-top:12% ;
-        font-size: 10px;
-        margin-left: 5%;
-    }
-    
-   
+@media (max-width: 540px) {
+  .footer {
+    position: absolute;
+    margin-top: 11%;
+    font-size: 7px;
+    margin-left: 3%;
+  }
+}
+@media (max-width: 415px) {
+  .footer__containerIcons {
+    display: none;
+  }
 }
 
-@media (max-width:540px) {
-    .footer{
-        position: absolute;
-        margin-top:11% ;
-        font-size: 7px;
-        margin-left:3%;
-    }
-    
-   
-}
-@media (max-width:415px) {
-    
-    .footer__containerIcons{
-        display: none;
-       
-    }
-    
-    
-   
-}
-
-@media (max-width:360px) {
-    .footer{
-     
-        font-size: 0px; 
-    }
-   
+@media (max-width: 360px) {
+  .footer {
+    font-size: 0px;
+  }
 }

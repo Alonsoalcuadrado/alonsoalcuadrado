@@ -1,3 +1,6 @@
+@import './../../assets/sass/variables.scss';
+@import './../../assets/sass/mixin.scss';
+
 .benefits-space{
     margin-left: 10%;
     margin-right: 10%;
@@ -17,13 +20,13 @@
         width: 100px; 
         border-top-left-radius: 20px;
         border-bottom-right-radius: 20px;
-        background-color: #0099FF;
+        background-color: $componentsBlueColor;
         margin-right: 15px;
         margin-top: 33px;
         padding: 10px;
     }
     .benefits-cards__card--large{
-        background: rgba(208, 187, 187, 0.25);
+        background: $cardBgBlackColor;
         border-radius: 15px;
         margin-top: 33px;
         padding-top: 10px;

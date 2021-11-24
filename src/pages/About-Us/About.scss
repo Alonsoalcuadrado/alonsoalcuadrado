@@ -1,23 +1,50 @@
-div{
+.aboutUs{
     text-align: center;
 }
 
-.about_us__image--icon{
-    position: absolute;
-    z-index: 1;
+.about_us__info{
+    background-image: url('./../../assets/Vector.png');
+    position: relative;
+    text-align: left;
+    background-repeat:round;
+    @media (max-width:850px) {
+        background-repeat: no-repeat;
+        width: 100%;
+    }
+    @media (max-width: 550px) {
+        width: 100vw;
+    }
+    @media (max-width: 370px) {
+        width: 100%;
+    }
+    width: 100vw;
+    top: 25px;
 }
-.about_us__image{
-    position: absolute;
-    z-index: -1;
+
+.about_us__info--data{
+    padding: 40px;
     text-align: center;
-    display: block;
-    margin: 0 auto;
-    height: 150%;
-    width: 100%;
-    max-width: 4000px;
-    margin-top: 20px;
 }
 .about_us__info--image{
-    display: block;
-    max-width: 100%;
+    bottom: -5px;
+    text-align: center;
+}
+
+@media (max-width:831px) {
+    .about_us__info--image{
+        width: 50vw;
+        justify-content: center;
+    }
+}
+
+@media (max-width:550px) {
+    .about_us__info--image{
+        width: 70vw;
+    }
+}
+
+@media (max-width:375px) {
+    .about_us__info--image{
+        width: 75vw;
+    }
 }
