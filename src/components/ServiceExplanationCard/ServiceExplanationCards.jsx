@@ -3,12 +3,15 @@ import './ServiceExplanationCardsStyle.scss'
 import ServiceExplanationCard from './ServiceExplanationCard'
 
 
+
+
 function ServiceExplanationCards({InformationServiceCards}) {
     return (
-            <div className="services">
-                 <h1 className="services__title"> SERVICIOS</h1>
-                 {
+            <div className="services" id="services" name="services">
+                 <h2 className="services__title"> SERVICIOS</h2>
+               {
                     InformationServiceCards.map(InformationServiceCard=>(
+                         
                          <ServiceExplanationCard 
                          key={InformationServiceCard.id} 
                          serviceCardId={InformationServiceCard.id} 
@@ -17,6 +20,7 @@ function ServiceExplanationCards({InformationServiceCards}) {
                          serviceCardPoints={InformationServiceCard.servicesPoints}/>
                     ))
                  }
+               
             </div>
     )
 }

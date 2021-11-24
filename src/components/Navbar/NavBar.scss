@@ -1,7 +1,15 @@
 @import './../../assets/sass/variables.scss';
-.navbar{
-    background-color: $blueColor;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 300;
-    color: $textInfo;
+.navbar {
+  background-color: #0567fc;
+  padding-right: 2%;
+
+  .navbar__logo {
+    color: azure;
+    text-decoration: none;
+  }
+  .navbar__link {
+    color: azure;
+    margin-left: 10px;
+    text-decoration: none;
+  }
 }

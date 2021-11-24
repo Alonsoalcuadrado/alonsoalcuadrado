@@ -6,7 +6,7 @@ function benefitsSpace({benefitsSpaceImge, InformationBenefitsCards}) {
     return (
       <div className="benefits-space">
           <h2 className="benefits-space__title">BENEFICIOS</h2>
-            <Row>
+            <Row xs={1} md={2}>
               <Col><img className="benefits-space__imge" src={benefitsSpaceImge} alt="Not found"></img></Col>
               <Col>
                   {

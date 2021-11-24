@@ -1,29 +1,28 @@
 @import './../../assets/sass/variables.scss';
 @import './../../assets/sass/mixin.scss';
 
-.service-cards{
-    margin-left: 150px;
-    margin-right: 150px;
-    .service-cards__title{
-        font-size: 48px;
-        line-height: 72px;
-        text-align: center;
-        margin-top: 50px;
-        margin-bottom: 0px;
-    }
+.service-cards {
+  margin-left: 15%;
+  margin-right: 15%;
+
+  .service-cards__title {
+    font-size: 48px;
+    line-height: 72px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 0px;
+  }
 }
-.service-card{
-    @include filterCard;
-    .service-card__card-header{
-        @include card-header_mixin
-    }
-    .service-card__card-text{
-        height: 180px;
-    }
-    .service-card__button{
-        @include mainbuttonCards;
-    }
+.service-card {
+  @include filterCard;
+  .service-card__card-header {
+    @include card-header_mixin;
+  }
+  .service-card__card-text {
+    height: 180px;
+    text-align: left;
+  }
+  .service-card__button {
+    @include mainbuttonCards;
+  }
 }
-
-
-

@@ -1,11 +1,11 @@
 import React from 'react'
-import Home from "./pages";
-
+ import{Navbar,Footer} from '../src/components'
 function App() {
   return (
-    <div>
-      <Home />
-    </div>
+    <>
+    <Navbar/>
+    <Footer/>
+    </>
   );
 }
 
