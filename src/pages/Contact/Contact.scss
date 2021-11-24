@@ -1,28 +1,30 @@
 @import './../../assets/sass/variables.scss';
 
-.contact_info{
-    text-align: start;
-    background-color: $blueComponentsColor;
-    padding: 30px;
-    border: 50px;
+.contact_info {
+  text-align: start;
+  background-color: $componentsBlueColor;
+  padding: 30px;
+  border: 50px;
 }
 
-.buttons{
-    text-align: end;
+.buttons {
+  text-align: end;
 }
 
-.buttons__send{
-    background-color: $mainBlueColor;
-    color: $textInfo;
-    justify-content: end;
+.buttons__send {
+  background-color: $mainBlueColor;
+  color: $textInfoAzureColor;
+  justify-content: end;
 }
-.info_business{
-    text-align: start;
+.info_business {
+  text-align: start;
 }
-.info_location{
-    border-radius: 15px ;
+.info_location {
+  border-radius: 15px;
 }
 
-.info_business--marker_icon, .info_business--phone_icon, .info_business--envelope_icon{
-    color: $mainBlueColor;
+.info_business--marker_icon,
+.info_business--phone_icon,
+.info_business--envelope_icon {
+  color: $mainBlueColor;
 }
