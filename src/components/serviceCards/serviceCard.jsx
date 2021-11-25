@@ -2,7 +2,7 @@
 import React from "react";
 import { Card,Button } from "react-bootstrap";
 import './serviceCardsStyle.scss';
-import {BrowserRouter,Link } from "react-router-dom";
+import {Link } from "react-router-dom";
 
 function serviceCards({title,itemsType}){
    return(

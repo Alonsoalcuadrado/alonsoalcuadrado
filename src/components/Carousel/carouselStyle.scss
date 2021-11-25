@@ -1,7 +1,30 @@
 .carousel{
-    .carousel__image{
-        display: block;
-        width: 100%;
-    }
+    background-color: #E5F2F4;
+    
    
+
+    .carousel__col-image{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .carousel__image{
+            width: 100%;
+            height:auto;
+    }
+    .carousel__row{
+        height:500px;
+    }
+    .carousel__col-text{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+       padding: 0px 90px 30px 90px;  
+    }
+    .carousel__text{
+        font-weight:lighter;
+        font-size:20px
+    }
 }
+
