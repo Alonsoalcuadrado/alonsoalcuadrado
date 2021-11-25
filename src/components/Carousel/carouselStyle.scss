@@ -1,15 +1,36 @@
 .carousel{
     background-color: #E5F2F4;
     
-    .carousel__text{
+   
+
+    .carousel__col-image{
         display:flex;
         align-items: center;
         justify-content: center;
-        padding-right: 12%;
-        padding-left: 12%;
-       text-align: justify;
-       font-weight:lighter;
-        
     }
+    .carousel__image{
+            width: 100%;
+            height:auto;
+    }
+
+    .carousel__row{
+        height:550px;
+    }
+    
+    .carousel__col-text{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+       padding: 25px 25px 25px 25px;  
+      
+       
+    }
+    .carousel__text{
+        text-align: justify;
+        font-weight:lighter;
+        font-size:20px
+
+    }
+
    
 }

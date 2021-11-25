@@ -3,13 +3,12 @@ import {Carousel,ServiceCards,BenefitsSpace} from '../../components'
 import {imgCarouselOne,imgCarouselTwo,imgCarouselThree,imgCarouselFour,imgCarouselFive,iconBenefitOne,iconBenefitTwo,iconBenefitThree,benefitsSpaceImge} from '../../assets/index'
 
 const ArrayImgesCarousel =[
-  { id:1,imgC:imgCarouselOne},
-  { id:2, imgC: imgCarouselTwo },
-  { id:3, imgC: imgCarouselThree},
-  { id:4, imgC: imgCarouselFour},
-  { id:5,imgC:imgCarouselFive}
+  { id:1,imgC:imgCarouselOne,textCarousel:"Ahora que todo está al alcance de un click, no te quedes atrás y ten presencia en la WEB"},
+  { id:2, imgC: imgCarouselTwo,textCarousel:" Según datos de Google, el 97% de los consumidores buscan en internet a las empresas que ofrecen el producto o servicio que desean antes de adquirirlo." },
+  { id:3, imgC: imgCarouselThree,textCarousel:"Ten acceso a la información de tu negocio  en cualquier lugar con acceso a la red"},
+  { id:4, imgC: imgCarouselFour,textCarousel:"Conocer de forma precisa los gustos, preferencias y necesidades de tus  clientes, como resultado ofrece productos y experiencias altamente personalizadas"},
+  { id:5,imgC:imgCarouselFive,textCarousel:"En los procesos de gestión, el uso de las tecnología permite un ahorro  de tiempo como de dinero en la realización de tareas, simplificando los procesos,  la gestión del tiempo se llevan a cabo de forma más ágil y eficiente"}
 ]
-
 const ArrayServicesCardsInformation=[
   {
       id:1,title: 'Pagina WEB', items:[{ id:1,p: "Página WEB personalizada" },{ id:2,p: " Contacto directo" }, { id:3,p:"Dominio WEB"}, { id:4,p:"Almacenamiento"}]
@@ -30,7 +29,7 @@ const ArrayBenefitsCardsInformation=[
 const Home = () => {
   return (
     <div className='home-container'>
-     <Carousel imgesCarousel={ ArrayImgesCarousel} ></Carousel>
+     <Carousel paramsCarousel={ ArrayImgesCarousel} ></Carousel>
      <ServiceCards InformationServiCards={ArrayServicesCardsInformation}/>
      <BenefitsSpace benefitsSpaceImge={benefitsSpaceImge} InformationBenefitsCards={ArrayBenefitsCardsInformation}></BenefitsSpace>
     </div>
