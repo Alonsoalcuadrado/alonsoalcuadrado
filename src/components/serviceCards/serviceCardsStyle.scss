@@ -25,4 +25,13 @@
   .service-card__button {
     @include mainbuttonCards;
   }
+  .service-card__link{
+    text-decoration:none;
+    color:$cardTextColor;
+  }
+  .service-card__footer-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }

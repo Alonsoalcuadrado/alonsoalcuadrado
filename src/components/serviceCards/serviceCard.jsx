@@ -2,7 +2,7 @@
 import React from "react";
 import { Card,Button } from "react-bootstrap";
 import './serviceCardsStyle.scss';
-import {BrowserRouter,Link } from "react-router-dom";
+import {Link } from "react-router-dom";
 
 function serviceCards({title,itemsType}){
    return(
@@ -18,9 +18,11 @@ function serviceCards({title,itemsType}){
                         }
                   </ul>
                 </Card.Text>
-                <Button className="service-card__button" >
-                  <Link className="service-card__link" to="/services#services">Más Información</Link>
-                </Button>
+                <div className="service-card__footer-card">
+                  <Button className="service-card__button" >
+                    <Link className="service-card__link" to="/services#services">Más Información</Link>
+                  </Button>
+                </div>
           </Card.Body>
       </Card>
     );
