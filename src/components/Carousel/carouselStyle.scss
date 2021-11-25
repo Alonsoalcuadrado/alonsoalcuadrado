@@ -12,25 +12,19 @@
             width: 100%;
             height:auto;
     }
-
     .carousel__row{
-        height:550px;
+        height:500px;
     }
-    
     .carousel__col-text{
         display:flex;
         align-items: center;
         justify-content: center;
-       padding: 25px 25px 25px 25px;  
-      
-       
+        text-align: center;
+       padding: 0px 90px 30px 90px;  
     }
     .carousel__text{
-        text-align: justify;
         font-weight:lighter;
         font-size:20px
-
     }
-
-   
 }
+
